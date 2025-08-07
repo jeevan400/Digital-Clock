@@ -71,7 +71,7 @@ body{
 .set-time #set-time-btn:hover{
     box-shadow: 2px 2px 5px white;
 }
-@media(max-width:400px){
+@media(max-width:600px){
     .container2{
         margin: auto;
         height: 100vh;
