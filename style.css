@@ -32,7 +32,7 @@ body{
     align-items: center;
     padding: 0 5px;
     margin-bottom: 50px;
-     font-family: 'DigitalFont', sans-serif;
+    font-family: 'DigitalFont', sans-serif;
 }
 .watch div{
     height: 140px;
@@ -70,4 +70,17 @@ body{
 }
 .set-time #set-time-btn:hover{
     box-shadow: 2px 2px 5px white;
+}
+@media(max-width:400px){
+    .container2{
+        margin: auto;
+        height: 100vh;
+        width: 100%;
+    }
+    .container2 .watch{
+        width: 90%;
+    }
+    .container2 .set-time .time-input{
+        width: 80px;
+    }
 }
