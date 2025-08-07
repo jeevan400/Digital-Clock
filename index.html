@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Clock</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container2">
+    <div class="watch">
+        <div class="hour-container"></div>
+        <div class="minut-container"></div>
+        <div class="second-container"></div>
+    </div>
+    <div class="set-time">
+        <input type="number" class="time-input" name="hour" placeholder="hour" min="1" max="12" id="set-hour">
+        <input type="number" class="time-input" name="minuts" placeholder="minute" min="0" max="59" id="set-minute">
+        <input type="number" class="time-input" name="second" placeholder="second" min="0" max="59" id="set-second"> 
+    </div>
+    <div class="set-time">
+        <button id="set-time-btn">Set Time</button>
+    </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

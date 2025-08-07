@@ -1,0 +1,73 @@
+@font-face {
+  font-family: 'DigitalFont';
+  src: url('./fonts/digital.ttf') format('truetype');
+}
+body{
+    margin:0;
+    padding:0;
+    background-color: #333;
+}
+.container2{
+    height: 80vh;
+    width: 90%;
+    display: flex;
+    margin: auto;
+    margin-top: 50px;
+    margin-top: 40px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    flex-direction: column;
+    background-color: rgba(255, 192, 203, 0.333);
+}
+.watch{
+    height: 200px;
+    width: 500px;
+    border: 1px solid white;
+    border-radius: 10px;
+    color: black;
+    background-color: pink;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0 5px;
+    margin-bottom: 50px;
+     font-family: 'DigitalFont', sans-serif;
+}
+.watch div{
+    height: 140px;
+    width: 150px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 100px;
+    font-weight: 600;
+    text-align: center;
+}
+.set-time .time-input{
+    height: 30px;
+    width: 100px;
+    margin-right: 10px;
+    padding: 5px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: pink;
+    color: black;
+    margin-bottom: 50px;
+    font-family: "VT323", monospace;
+}
+.set-time #set-time-btn{
+    height: 50px;
+    width: 150px;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(255, 84, 121);
+    color: white;
+    transition:all 0.3s ease;
+    font-family: "VT323", monospace;
+}
+.set-time #set-time-btn:hover{
+    box-shadow: 2px 2px 5px white;
+}
